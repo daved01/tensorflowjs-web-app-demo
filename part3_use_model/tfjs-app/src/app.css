@@ -1,0 +1,41 @@
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background: black;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInputImage, .myOutputImage {
+    padding: 1% 5%;   
+}
+
+.buttonPos {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.myButton {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: 2px double white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+}
