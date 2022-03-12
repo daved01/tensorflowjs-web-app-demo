@@ -1,4 +1,3 @@
-# tensorflowjs-web-app-demo
 # Tensorflow.js Web App Demo Code
 Code for the tutorial series on how to use Tensorflow.js models in JavaScript web applications.
 
