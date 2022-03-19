@@ -1,3 +1,8 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
 .main {
     position: fixed;
     top: 0;
@@ -8,11 +13,6 @@
     background: black;
 }
 
-.heading {
-    text-align: center;
-    color: white;
-}
-
 .imageContainer {
     display: flex;
     flex-direction: row;
@@ -20,13 +20,13 @@
     align-items: center;
 }
 
-.myInputImage, .myOutputImage {
+.myImage {
     padding: 1% 5%;   
 }
 
-.buttonPos {
+.myButtonPos {
     padding-top: 10%;
-    text-align: center;
+    text-align: center;  
 }
 
 .myButton {
@@ -37,5 +37,5 @@
     text-align: center;
     font-size: 18px;
     padding: 10px;
-    width: 200px;
+    width: 200px;    
 }
