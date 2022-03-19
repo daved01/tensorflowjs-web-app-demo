@@ -11,9 +11,8 @@ async function runModel() {
     let image = new Image(256,256);
     image.src = exampleImage;
 
-    // Convert content image to tensor and add batch dimension
-    let tfTensor = tf.browser.fromPixels(image); 
-    
+    // Convert image to tensor and add batch dimension
+    let tfTensor = tf.browser.fromPixels(image);    
     tfTensor = tfTensor.div(255.0);
     tfTensor = tfTensor.expandDims(0);
     tfTensor = tfTensor.cast("float32");
