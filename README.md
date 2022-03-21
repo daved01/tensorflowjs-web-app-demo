@@ -11,3 +11,8 @@ Code for the tutorial series on how to use Tensorflow.js models in JavaScript we
 [Post part 2](https://www.neuralception.com/tensorflowjs-app-part2/)
 
 [Video part 2](https://www.youtube.com/watch?v=AvOADF3s3Qw&t=27s)
+
+### Part 3: React App
+[Post part 3](https://www.neuralception.com/tensorflowjs-app-part3/)
+
+[Video part 3](https://www.youtube.com/watch?v=b4NF-1fCaD8)
